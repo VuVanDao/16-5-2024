@@ -35,6 +35,19 @@ a {
 .btn:hover {
   opacity: 0.9;
 }
+.section_heading {
+  color: #10375c;
+  font-size: 5rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+.section_desc {
+  margin-top: 18px;
+  color: #575f66;
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 30px;
+}
 /* ----------------------------------------- header ----------------------------------------------- */
 .header {
   padding: 30px;
@@ -141,4 +154,72 @@ a {
 .hero_img-small {
   width: 210px;
   height: 410px;
+}
+/* ---------------------------------------- service --------------------------------- */
+.service {
+  padding: 170px 0;
+}
+.service_heading,
+.service_desc {
+  text-align: center;
+}
+.service_desc {
+  width: 468px;
+  margin: 0 auto;
+}
+.service_row {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.service_img {
+  width: 560px;
+  height: 560px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+.service-item {
+  padding: 21px;
+  display: flex;
+  width: 470px;
+  border-radius: 10px;
+  background-color: #fff;
+  transition: 0.25s;
+}
+.service-item:hover {
+  box-shadow: 0 14px 28px 0 rgba(0, 0, 0, 0.05);
+  position: relative;
+}
+.service-item:hover .service-item_icon {
+  color: #fff;
+  background-color: #10375c;
+  transition: 0.25s;
+}
+.service-item_icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  box-shadow: 0 14px 28px 0 rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  margin-right: 19px;
+}
+.service-item_heading {
+  color: #10375c;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: normal;
+}
+.service-item_desc {
+  margin-top: 8px;
+  color: #575f66;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 1.75;
+}
+.service_btn {
+  margin-top: 55px;
 }
